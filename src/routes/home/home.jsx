@@ -1,4 +1,4 @@
-import './Home.css';
+import './home.css';
 import Ubicaciones from '../../components/Ubicacion/Ubicaciones';
 import { useContext } from 'react';
 import { UbicacionesContext } from '../../context/UbicacionesContext';

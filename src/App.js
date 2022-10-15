@@ -1,8 +1,8 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import Home from './routes/Home/home';
+import Home from './routes/home/home';
 import Navigation from './routes/Navigation/Navigation';
-import Login from './routes/Login/login';
+import Login from './routes/login/login';
 import UbicacionCreation from './routes/Ubicacion/UbicacionCreation';
 import { UbicacionesContext } from './context/UbicacionesContext';
 import { useContext, useEffect } from 'react';

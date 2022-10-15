@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { UserContext } from "../../context/UserContext";
-import './Login.css'
+import './login.css'
 
 const Login = () => {
     const { setCurrentUser } = useContext(UserContext)
